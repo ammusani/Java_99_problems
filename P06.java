@@ -1,5 +1,5 @@
-//This program is 5th of the 99 problems. 
-//It reverses and prints the list. 
+//This program is 6th of the 99 problems. 
+//It finds whether the given list is a palindrome or not. 
 //Here main fn. is the test fn. which creates a list on which the last fn. is called.
 
 import java.util.*;
