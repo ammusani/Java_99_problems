@@ -32,7 +32,8 @@ public class P11 {
                     count = 1;
                 }
             }
-            finList.add(new SimpleEntry(count, lastEl));
+            if(count > 1) finList.add(new SimpleEntry(count, lastEl));
+            else finList.add(lastEl);
         }
         else if(list == null) finList = null;
         return finList;
